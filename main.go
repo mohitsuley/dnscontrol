@@ -22,6 +22,7 @@ import (
 )
 
 //go:generate go run build/generate/generate.go
+// test checkin
 
 var jsFile = flag.String("js", "dnsconfig.js", "Javascript file containing dns config")
 var credsFile = flag.String("creds", "creds.json", "Provider credentials JSON file")
